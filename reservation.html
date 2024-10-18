@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header class="hero" style="background: url('contact.png') no-repeat center center/cover; height: 100vh;">
+        <nav class="navbar">
+            <div class="logo">Sovary Hub</div>
+            <ul class="nav-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="reservation.html">Contact Us</a></li>
+            </ul>
+            <div class="social-icons"> <a href="#"><img src="facebook-icon.png" alt="Facebook"></a> <a href="#"><img
+                        src="twitter-icon.png" alt="Twitter"></a> <a href="#"><img src="instagram-icon.png"
+                        alt="Instagram"></a> </div>
+        </nav>
+    </header>
+    <div class="contact-section">
+        <div class="contact-info-column">
+            <h2>Keep Close <span class="line"></span></h2><br>
+            <h3>Get in Touch</h3><br>
+            <p>We are always available to assist you. Whether you have questions, feedback, or need support, don’t hesitate to reach out. Our team is here to provide you with the best service and ensure your experience with Sovy Restaurant is exceptional.</p>
+            <div class="info-icons">
+                <div class="info-block"> <i class="fa fa-phone"></i>
+                    <p>(+62) 81 224 557 900<br>(+62) 82 222 577 912</p>
+                </div>
+                <div class="info-block"> <i class="fa fa-clock"></i>
+                    <p>Open 04:00 pm WITA<br>Closed 01:00 am WITA</p>
+                </div>
+                <div class="info-block"> <i class="fa fa-envelope"></i>
+                    <p>Reservation@sovy.com<br>Books@sovy.com</p>
+                </div>
+                <div class="info-block"> <i class="fa fa-map-marker"></i>
+                    <p>Sovy Restaurant, Jl. Raya<br>Canggu, Badung, Bali.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="right-column2">
+            <form id="contact-form">
+                <div> <label for="name">Name:</label> <input type="text" id="name" name="name"
+                        placeholder="Enter your name"> <span class="error-message"></span> </div>
+                <div> <label for="email">Email:</label> <input type="email" id="email" name="email"
+                        placeholder="Enter your email"> <span class="error-message"></span> </div>
+                <div> <label for="subject">Subject:</label> <input type="text" id="subject" name="subject"
+                        placeholder="Enter subject"> <span class="error-message"></span> </div>
+                <div> <label for="comment">Comment/Questions:</label> <textarea id="comment" name="comment"
+                        placeholder="Enter your message here"></textarea> <span class="error-message"></span> </div>
+                <button type="submit" id="contact-submit">Contact Us</button>
+            </form>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
